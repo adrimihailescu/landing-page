@@ -29,52 +29,100 @@
     </header>
     <main class="container">
 
-        <section id="home">
+        <section class="hero">
             <h2>Rise on every front November 5</h2>
-            <form id="form">
-                <input name="email" id="email" type="email" placeholder="Enter your email" required>
-                <input id="submit" type="submit" value="Pre-order" class="button">
-            </form>
+            <div class="form-wrapper">
+                <form id="form">
+                    <input name="email" id="email" type="email" placeholder="Enter your email" min="4" max="10"
+                        required>
+                    <button id="submit" type="submit" value="Pre-order">Pre-order</button>
+                </form>
+            </div>
         </section>
         <section id="features" class="products">
             <div class="description">
-                <div class="icon"><img src="https://i.ytimg.com/vi/QiyagNEzwkc/maxresdefault.jpg">
+                <div class="description-icon">
+                    <img src="https://img.epicnpc.com/xf/data/avatars/h/1342/1342566.jpg?1621963125">
                 </div>
-                <h2>New season batlepass</h2>
-                <p>
-                    Play through 100 Tiers and earn up to 1300 Call of Duty Points back.Plus instant unlock of the new
-                    operator Kitsune.
-                </p>
+                <div class="description-content">
+                    <h2 class="title">New season batlepass</h2>
+                    <p>Play through 100 Tiers and earn up to 1300 Call of Duty Points back.Plus instant unlock of the
+                        new operator Kitsune.
+                    </p>
+                </div>
             </div>
             <div class="description">
-                <div class="icon"><img src="https://www.callofduty.com/cdn/app/loot/mw/xp_token.png">
+                <div class="description-icon">
+                    <img src="https://www.callofduty.com/cdn/app/loot/mw/xp_token.png">
                 </div>
-                <h2>Shared progresion</h2>
-                <p>Earn unified Battle Pass XP across Black Ops cold war,Modern Warfare and Warzone</p>
+                <div class="description-content">
+                    <h2 class="title">Shared progresion</h2>
+                    <p>Earn unified Battle Pass XP across Black Ops cold war,Modern Warfare and Warzone.</p>
+                </div>
             </div>
             <div class="description">
-                <div class="icon"><img
-                        src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/hero/codm/CODM-S8-2021-Announcement-TOUT.jpg">
+                <div class="description-icon">
+                    <img src="https://www.citypng.com/public/uploads/preview/-416064762261taxkpnzaq.png" />
                 </div>
-                <h2>Call of Duty Mobile Aniversary</h2>
-                <p>Celebrate Call of Duty: Mobile’s 2nd Anniversary with this huge Season 8 update, featuring the new
-                    Blackout Battle Royale map, a new single-player experience, new items and events, a brand-new Battle
-                    Pass, and more.</p>
+                <div class="description-content">
+                    <h2 class="title">Call of Duty Mobile Aniversary</h2>
+                    <p>Celebrate Call of Duty: Mobile’s 2nd Anniversary with this huge Season 8 update, featuring the
+                        new Blackout Battle Royale map, a new single-player experience, new items and events.</p>
+                </div>
             </div>
 
+
         </section>
-        <section id="trailer">
-            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/EfFU-vxbzd0"
+        <section id="trailer" class="responsive-video">
+            <iframe id="video" class="responsive-iframe" src="https://www.youtube.com/embed/EfFU-vxbzd0"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
         </section>
-        <section id="bundles">
-            <div class="cards">
-
+        <section class="bundles">
+            <div class="cards card1">
+                <h2>Judge Dredd</h2>
+                <p>Enforce the Book of Law and make Mega-City One a safer place.</p>
+                <ul class="items">
+                    <li>Cold War Budle Exclusive</li>
+                    <li>All items in this bundle can be equipped in Black Ops:Cold War and Warzone only</li>
+                    <li>You are the law with the Tracer Pack</li>
+                </ul>
+                <p class="price">2400 CP</p>
+                <a href="https://my.callofduty.com/player/store/sku/18585309/title/cw" target="_blank"
+                    class=" button cta">View
+                    bundle</a>
+            </div>
+            <div class="cards card2">
+                <h2>Spectral Sai</h2>
+                <p>Introducing the first Legendary Blueprint for Dual Sai Melee Weapon.</p>
+                <ul class="items">
+                    <li>Cold War Budle Exclusive</li>
+                    <li>All items in this bundle can be equipped in Black Ops:Cold War and Warzone only</li>
+                    <li>Adapt and overcome any oppnonents with this Spectraal Sai Bundle</li>
+                </ul>
+                <p class="price">1000 CP</p>
+                <a href="https://cod.tracker.gg/warzone/db/bundles/22420105-spectral-sai" target="_blank"
+                    class=" button cta">View bundle</a>
+            </div>
+            <div class="cards card3">
+                <h2>Tracer Pack:Ghostship</h2>
+                <p>Take a forever voyage and never return to port with this Tracer Pack.</p>
+                <ul class="items">
+                    <li>Black Ops Season 5</li>
+                    <li>All items in this bundle can be equipped in Black Ops:Cold War and Warzone only</li>
+                    <li>This Bundle features Bluepirnts with Cyan Tracer Fire.</li>
+                </ul>
+                <p class="price">2000 CP</p>
+                <a href="https://cod.tracker.gg/warzone/db/bundles/20039552-tracer-pack-ghostship-mastercraft-bundle"
+                    target="_blank" class=" button cta">View bundle</a>
             </div>
         </section>
     </main>
+    <footer class="">
+        <p></p>
+
+    </footer>
 
 </body>
 
