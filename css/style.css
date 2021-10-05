@@ -66,12 +66,8 @@ header {
 }
 
 .hero {
-    /* display: flex; */
     align-items: center;
-    /* justify-content: center;
-    justify-self: center; */
     text-align: center;
-    /*   height: 150px; */
     flex-wrap: wrap;
     padding: 10px;
 }
@@ -92,10 +88,7 @@ h2 :hover {
     background-image: linear-gradient(315deg, #fee2f8 0%, #dcf8ef 74%);
 }
 
-.hero button
-/* [type='submit'] */
-
-    {
+.hero #submit {
     max-width: 150px;
     width: 100%;
     height: 30px;
@@ -145,10 +138,12 @@ h2 :hover {
 }
 
 .bundles {
-    max-width: 700px;
-    margin: 0 auto;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
 }
 
 .responsive-video {
@@ -156,7 +151,6 @@ h2 :hover {
     width: 100%;
     overflow: hidden;
     padding-top: 56.25%;
-    /* 16:9 Aspect Ratio */
 }
 
 .responsive-iframe {
@@ -173,14 +167,14 @@ h2 :hover {
 .cards {
     display: flex;
     margin: 20px;
-    /*  padding: 20px; */
-    border-radius: 2px;
+    padding: 20px;
+    border-radius: 0% 40% 74% 34% / 41% 33% 0% 36%;
     flex-wrap: wrap;
     text-align: center;
-    flex: 1 1 33.33;
+    max-width: 350px;
+    width: 100%;
     font-size: 15px;
     background-image: linear-gradient(-315deg, #8ae9b3 0%, #c8d6e5 74%);
-    border-radius: 30px;
 }
 
 .cards ul {
@@ -193,13 +187,69 @@ h2 :hover {
     padding: 10px;
 }
 
-.cards>* {
-    flex: 1 1 100%;
+.cards .cards-button {
+    display: block;
+    padding: 10px 14px 9px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 2px solid limegreen;
+    color: inherit;
+    background-color: #fee2f8;
+    background-image: linear-gradient(315deg, #fee2f8 0%, #dcf8ef 74%);
+    transition: all 200ms ease-in;
+    text-transform: uppercase;
 }
 
-.cta {
+.cards .cards-button:hover {
+    background-color: #17f9f2;
+    background-image: linear-gradient(315deg, #17f9f2 0%, #b0f9a9 74%);
+    transition: all 200ms ease-out;
+}
+
+.cards-title {
+    color: green;
+}
+
+.cards-content {}
+
+.cards-footer {
+    margin: 0 auto 20px;
+}
+
+.footer-style {
+    background-color: #9dc5c3;
+    background-image: linear-gradient(90deg, #9dc5c3 0%, #5e5c5c 74%);
     padding: 10px;
-    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.list ul {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 0;
+    list-style: none;
+    gap: 20px;
+}
+
+.list a {
+    color: lime;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+}
+
+.list a:hover {
+    text-shadow: 0 0 4px limegreen;
+}
+
+.footer-p {
+    color: white;
+    font-size: 12px;
 }
 
 @media screen and (max-width: 800px) {

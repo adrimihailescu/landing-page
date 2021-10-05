@@ -12,7 +12,8 @@
 <body>
     <header id="header">
         <a class="logo" href="#home">
-            <img id="header-img" src="cod-logo.svg">
+            <img id="header-img"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Call_of_Duty_Vanguard_logo.svg/1200px-Call_of_Duty_Vanguard_logo.svg.png">
         </a>
         <nav id="nav-bar" class="nav">
             <ul>
@@ -32,10 +33,10 @@
         <section class="hero">
             <h2>Rise on every front November 5</h2>
             <div class="form-wrapper">
-                <form id="form">
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
                     <input name="email" id="email" type="email" placeholder="Enter your email" min="4" max="10"
                         required>
-                    <button id="submit" type="submit" value="Pre-order">Pre-order</button>
+                    <input id="submit" type="submit" value="Pre-order"></input>
                 </form>
             </div>
         </section>
@@ -45,7 +46,7 @@
                     <img src="https://img.epicnpc.com/xf/data/avatars/h/1342/1342566.jpg?1621963125">
                 </div>
                 <div class="description-content">
-                    <h2 class="title">New season batlepass</h2>
+                    <h2 class="title">New season battlepass</h2>
                     <p>Play through 100 Tiers and earn up to 1300 Call of Duty Points back.Plus instant unlock of the
                         new operator Kitsune.
                     </p>
@@ -79,48 +80,72 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
         </section>
-        <section class="bundles">
+        <section id="bundles" class="bundles">
             <div class="cards card1">
-                <h2>Judge Dredd</h2>
-                <p>Enforce the Book of Law and make Mega-City One a safer place.</p>
-                <ul class="items">
-                    <li>Cold War Budle Exclusive</li>
+                <div class="cards-title">
+                    <h2>Judge Dredd</h2>
+                    <p>Enforce the Book of Law and make Mega-City One a safer place.</p>
+                </div>
+                <ul class="cards-content">
+                    <li>Cold War Bundle Exclusive</li>
                     <li>All items in this bundle can be equipped in Black Ops:Cold War and Warzone only</li>
-                    <li>You are the law with the Tracer Pack</li>
+                    <li>You are the law with the Tracer Pack:Judge Dredd Bundle</li>
                 </ul>
-                <p class="price">2400 CP</p>
-                <a href="https://my.callofduty.com/player/store/sku/18585309/title/cw" target="_blank"
-                    class=" button cta">View
-                    bundle</a>
+
+                <div class="cards-footer">
+                    <p class="price">2400 CP</p>
+                    <a class="cards-button" href="https://my.callofduty.com/player/store/sku/18585309/title/cw"
+                        target="_blank">View
+                        bundle</a>
+                </div>
             </div>
             <div class="cards card2">
-                <h2>Spectral Sai</h2>
-                <p>Introducing the first Legendary Blueprint for Dual Sai Melee Weapon.</p>
-                <ul class="items">
-                    <li>Cold War Budle Exclusive</li>
+                <div class="cards-title">
+                    <h2>Spectral Sai</h2>
+                    <p>Introducing the first Legendary Blueprint for Dual Sai Melee Weapon.</p>
+                </div>
+                <ul class="cards-content">
+                    <li>Cold War Bundle Exclusive</li>
                     <li>All items in this bundle can be equipped in Black Ops:Cold War and Warzone only</li>
-                    <li>Adapt and overcome any oppnonents with this Spectraal Sai Bundle</li>
+                    <li>Adapt and overcome any oppnonents with this Spectral Sai Bundle</li>
                 </ul>
-                <p class="price">1000 CP</p>
-                <a href="https://cod.tracker.gg/warzone/db/bundles/22420105-spectral-sai" target="_blank"
-                    class=" button cta">View bundle</a>
+
+                <div class="cards-footer">
+                    <p class="price">1000 CP</p>
+                    <a class="cards-button" href="https://cod.tracker.gg/warzone/db/bundles/22420105-spectral-sai"
+                        target="_blank">View bundle</a>
+                </div>
             </div>
             <div class="cards card3">
-                <h2>Tracer Pack:Ghostship</h2>
-                <p>Take a forever voyage and never return to port with this Tracer Pack.</p>
-                <ul class="items">
+                <div class="cards-title">
+                    <h2>Tracer Pack:Ghostship</h2>
+                    <p>Take a forever voyage and never return to port with this Tracer Pack.</p>
+                </div>
+                <ul class="cards-content">
+
                     <li>Black Ops Season 5</li>
                     <li>All items in this bundle can be equipped in Black Ops:Cold War and Warzone only</li>
                     <li>This Bundle features Bluepirnts with Cyan Tracer Fire.</li>
                 </ul>
-                <p class="price">2000 CP</p>
-                <a href="https://cod.tracker.gg/warzone/db/bundles/20039552-tracer-pack-ghostship-mastercraft-bundle"
-                    target="_blank" class=" button cta">View bundle</a>
+
+                <div class="cards-footer">
+                    <p class="price">2000 CP</p>
+                    <a class="cards-button"
+                        href="https://cod.tracker.gg/warzone/db/bundles/20039552-tracer-pack-ghostship-mastercraft-bundle"
+                        target="_blank">View bundle</a>
+                </div>
             </div>
         </section>
     </main>
-    <footer class="">
-        <p></p>
+    <footer class="footer-style">
+        <div class="list">
+            <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <p class="footer-p">Landing page made by Adriana</p>
 
     </footer>
 
